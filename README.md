@@ -202,6 +202,30 @@
               Redacción del Glosario, Conclusiones y recomendaciones de cada uno de los entregables, segmentación de nuestra bibliografía, descripción de nuestros Validations Interviews y agregación de los videos de Validation App, About the Team y About the Product.
             </td>
         </tr>
+        <tr>
+            <td>3.0.0</td>
+            <td>25/11/2025</td>
+            <td>José Diego Huamani Sánchez</td>
+            <td>
+              Redacción de las nuevos Objetivos SMART, así como la nueva versíón de la descripción detallada de los avances realizados para el apartado del Project Report Collaboration.
+            </td>
+        </tr>
+        <tr>
+            <td>3.1.0</td>
+            <td>27/11/2025</td>
+            <td>José Diego Huamani Sánchez</td>
+            <td>
+              Redacción de la última versión del <q>Capítulo IV:  Product Implementation & Validation</q> del punto 4.2.3. Sprint 3, 4.2.3.2. Sprint Planning 3, 4.3.2.2. Sprint Backlog 3, 4.3.2.3. Development Evidence for Sprint Review, 4.3.2.4. Testing Suite Evidence for Sprint Review, 4.3.2.5. Execution Evidence for Sprint Review, 4.3.2.6. Services Documentation Evidence for Sprint Review, 4.3.2.7. Software Deployment Evidence for Sprint Review, 4.3.2.8. Team Collaboration Insights during Sprint.
+            </td>
+        </tr>
+        <tr>
+            <td>3.2.0</td>
+            <td>01/12/2025</td>
+            <td>José Diego Huamani Sánchez</td>
+            <td>
+              Redacción de las conclusiones de la documentación del proyecto así como indexación de los videos correspondientes realizados en base al avance presentado para este Sprint (principalmente para el público que no vaya a poder estar presente en la sesión síncrona del lanzamiento del producto).
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -249,8 +273,24 @@ Dejándo del lado la parte de desarrolló de software, en base al último *feedb
 
 Es por ello que, a continuación se presentará los diagramas de flujo que representan cada uno de los *commits* realizados por cada uno de los miembros del equipo de Flota 365:
 
+<br>
 <div align="center">
   <img src="images/Project Report Collaboration Insights/TB2-Project Report Collaboration Insights-Flota365.png" alt="Graphic TB2 - Project Report Collaboration Insights" style="width: 600px;" />
+</div>
+
+<br>
+
+### Reporte de colaboración de la entrega del TF:
+
+Para lo que respecta esta última entrega (TF), nuestro objetivo principal esta centralizado en continuar el desarrollo y despliegue de la aplicación **Flutter** - dirigido para el segmento objetivo de conductores, con el propósito de que pueda ser utilizados por los diferentes usuarios en sus dispositivos móviles. Así mismo, por temas corporativos y de Gobierno de datos, se priorizó la migración de nuestros servicios **Cloud**, tanto **Base de Datos** como **API**, hacia los entornos de Microsoft Azure, por la confibilidad y robustez que ofrece a las grandes compañias.
+
+Por otro lado, viendo la otra cara del desarrollo de software, en base al último *feedback* recibido en la entrega de la TB2, se mejoraron las vistas del aplicativo desarrollado en **Flutter** y se intregró los servicios de **Google Maps** para comunicar los conductores las rutas de entrega que tiene que realizar e informar a los gestores de flota donde están posicionados. Estos objetivos fueron alcanzados mediante nuestra planificación interna realizada en el aplicativo de **Trello** y, no olvidarnos mencionar, utilizar herrameintas como **Github, Miro, Discord para gestionar cada una de las actividades presentadas para este último Sprint**.
+
+Sin más preámbulos,  se presentará los diagramas de flujo que representan cada uno de los *commits* realizados por cada uno de los miembros del equipo de Flota 365:
+
+
+<div align="center">
+  <img src="images/Project Report Collaboration Insights/TF-Project Report Collaboration Insights-Flota365.png" alt="Graphic TF - Project Report Collaboration Insights" style="width: 600px;" />
 </div>
 
 <br>
@@ -524,6 +564,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
         <strong>Comettant Rubiños, Jessica</strong><br>
         Fortaleíó sus competencias en UX/UI avanzado y prototipado funcional, aportando significativamente al desarrollo de la interfaz móvil del sistema. Mi trabajo se basó en la aplicación de principios de diseño responsivo y usabilidad, integrando los lineamientos definidos en los Style Guidelines para garantizar coherencia visual entre los distintos componentes del ecosistema digital. Mi desempeño demuestra una actualización constante en herramientas y tendencias de diseño aplicadas a soluciones móviles.
+        <br><br>
+        <strong>TB2:</strong><br>
         <strong>Huamani Sánchez, José Diego</strong><br>
         Actualicé y amplié mis conocimientos en desarrollo móvil con Kotlin, enfocándome en la implementación de interfaces más intuitivas y accesibles para el gestor de flota. Aprendí a integrar buenas prácticas de UX y técnicas modernas de navegación y manejo de estados. Además, revisé y aplicó criterios de usabilidad para optimizar el flujo principal de la aplicación.
         <br><br>
@@ -536,6 +578,18 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <strong>Torres Apolinario, Giovany Smith</strong><br>
         Fortalecí mis capacidades en el desarrollo con Flutter, creando la primera versión funcional de la aplicación para el segmento de conductores. Durante este proceso internalicé conceptos de manejo de widgets, rutas y controladores. Mi aprendizaje permitió entregar un módulo estable capaz de registrar check-in, check-out e incidencias.
         <br><br>
+        <strong>TF:</strong><br>
+        <strong>Huamani Sánchez, José Diego</strong><br>
+        Integré las últimas mejoras del backend .NET 8, aplicando principios de Domain-Driven Design, consolidando el 100% de los web services necesarios para la que operación del sistema funciona de manera integra al momento de realizar el nuevo despliegue hacia el entorno Cloud de Microsoft Azure. Aquí mismo, me encargue la comunicación de los servicios de la base de datos, servidor y servicio web (orquestado en un grupo de recrusos) para poder monitorear los costos, performances y pico de usuarios que está teniendo nuestros servicios.
+        <br><br>
+        <strong>Llerena Delgado, Renzo Miguel</strong><br>
+        Reforzé conocimientos acerca de Kotlin para crear componentes específicos del flujo de gestor, integrando elementos visuales y lógicas al backend desarrollado en C# con .NET8. Póstumamente, fortalecí conceptos como la gestión de estados de navegación interna dentro la aplicación para el segmento de gestores de flota con la finalidad de optimizar la experiencia del usuario.
+        <br><br>
+        <strong>Villafuerte Tapia, Renzo Alonso</strong><br>
+        Profundizó principios de UX Writing y diseño centrando en el usuario para fortalecer la claridad de las vistas para cada uno de los dispositivos móbiles dirigidos hacia nuestro segmentos objetivos. Asimismo, fortalecí mis conocimientos en interfaces móviles en Kotlin, contribuyendo en pantallas clave del flujo de gestión de flotas.
+        <br><br>
+        <strong>Torres Apolinario, Giovany Smith</strong><br>
+        Actualizé mis conocimiento en Firebase Studio, configurando la primera versión de la aplicación de conductores e integrando autenticación y servicios remotos - como le es la API de Google Maps. Adicional a ello, profundicé conceptos de arquitectura multiplataforma mediante Flutter, estructurando pantalla clave mediante flujo de registro y reporte de actividades del conductor.
       <td style="padding: 10px; border: 1px solid #ccc;">
         <strong>TB1:</strong><br>
         Concluimos que, a través del desarrollo del primer avance del proyecto Flota365, el equipo logró actualizar y aplicar conceptos fundamentales del desarrollo profesional en ingeniería de software, fortaleciendo conocimientos en metodologías modernas como Lean UX y Domain-Driven Design. Este proceso permitió integrar teoría y práctica para analizar de manera profunda la problemática de la mala gestión y los sobrecostos en flotas vehiculares, realizar un análisis competitivo, definir segmentos objetivos (conductores y gestores de flotas), y construir una base sólida de User Stories y Product Backlog que servirán como cimiento técnico y funcional del proyecto.
@@ -547,6 +601,10 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
         <strong>TB2:</strong><br>
         Durante esta tercera etapa del proyecto Flota365, consolidamos competencias técnicas y metodológicas esenciales para el desarrollo del proyecto. Cada integrante actualizó conocimientos en su área —backend, Kotlin, Flutter y validación— lo que nos permitió integrar componentes coherentes y funcionales dentro de Flota365. Este proceso reforzó nuestra capacidad para aprender, incorporar nuevas tecnologías y aplicarlas directamente en un entorno real de desarrollo de software.
+        <br><br>
+        <br><br>
+        <strong>TF:</strong><br>
+        Durante este sprint, los cuatro integrantes consolidaron y actualizaron conocimientos clave en tecnologías móviles (Kotlin y Flutter), arquitectura de software, servicios backend con .NET 8 y metodologías de validación. La combinación de estos aprendizajes permitió entregar una versión más madura, estable y alineada a las necesidades reales de Flota365. Como equipo, la actualización continua de conceptos fue la base para fortalecer el producto y garantizar un desarrollo profesional sólido.
       </td>
     </tr>
     <tr>
@@ -585,7 +643,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
         <strong>Comettant Rubiños, Jessica</strong><br>
         Evidenció una mentalidad de aprendizaje continuo al refinar la experiencia del usuario en base a pruebas iterativas y feedback de los stakeholders. Mi apertura a la mejora del diseño, exploración de nuevas herramientas de prototipado y sensibilidad hacia la accesibilidad digital destacan su compromiso con la innovación constante y su crecimiento como profesional del diseño centrado en el usuario.
-                <br><br>
+        <br><br>
         <strong>TP1:</strong><br>
         <strong>Huamani Sánchez, José Diego</strong><br>
         Reconocí la importancia del aprendizaje permanente al tener que adoptar lineamientos de diseño UX para mejorar la experiencia del gestor de flota. Comprendí que el desarrollo móvil no solo depende del dominio del lenguaje, sino también de metodologías de diseño centradas en el usuario, lo que me motivó a revisar patrones y directrices modernas.
@@ -609,6 +667,10 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
         <strong>TB2:</strong><br>
         Esta entrega permitió al equipo reafirmamos que el aprendizaje permanente es indispensable para la construcción de soluciones de software de calidad. Las exigencias del sprint nos impulsaron a adquirir nuevos conocimientos, refinar habilidades existentes y adaptarnos a herramientas que no dominábamos completamente. Esta experiencia nos permitió comprender que el desarrollo profesional es un proceso continuo, profundamente ligado a la evolución tecnológica y a las necesidades cambiantes de los usuarios.
+        <br><br>
+        <br><br>
+        <strong>TF:</strong><br>
+        El equipo demostró una clara conciencia sobre la importancia del aprendizaje permanente. Cada integrante identificó brechas, investigó nuevas tecnologías, adoptó mejores prácticas y aplicó lo aprendido de forma inmediata para fortalecer el proyecto. Este ciclo de mejora continua permitió construir una solución más coherente, estable y alineada a los estándares de la industria, reforzando la capacidad del equipo para enfrentar nuevos retos profesionales.
       </td>
     </tr>
   </tbody>
@@ -627,38 +689,54 @@ Desarrollar dominio intermedio–avanzado en Kotlin aplicado a arquitecturas mó
 
 Implementar patrones avanzados de estado en Flutter (Bloc o Riverpod) para diciembre de 2026, incorporándolos en al menos dos módulos críticos de la aplicación de conductores de Flota365. El progreso será validado mediante métricas de reducción del tiempo de render y una mejora del 20% en la estabilidad del flujo de UI durante pruebas internas.
 
+**Objetivos SMART 3**
+
+Desplegar servicios backend dentro de los entornos *cloud* de Microsoft Azure, para poder utilizarlo desde cualquier petición proveniente de cualquier dispositivo - garantizando la disponibilidad desde cualquier parte del mundo. Esperamos que los servicios utilizados dentro del entorno de Microsoft Azure, tanto por **Azure MySQL Flexible Server** y **Azure App Service** - todo ello encapsulado dentro de un **Resources Management**, permitan poder ahorrar 2 horas de mantenimiento y monitoreo así como una reducción de costos por uso en un 30% con la posibilidad que, en base a la demanda, los servicios escalen o disminuyen y así seguir manteniedo una aplicación más alienada a la demanda.
+
 <br>
 
 **Llerena Delgado, Renzo Miguel**
 
-**Objetivo SMART 3**
+**Objetivo SMART 4**
 
 Fortalecer competencias en Arquitectura Hexagonal aplicada a servicios .NET para marzo de 2026, refactorizando un módulo completo del backend de Flota365 (seguridad, reporting o gestión de flotas) e incorporando puertos y adaptadores claramente definidos. La evidencia será la reducción del acoplamiento en al menos 25% y la mejora de testabilidad medida por un incremento del 40% en la cobertura de pruebas unitarias.
 
-**Objetivo SMART 4**
+**Objetivo SMART 5**
 
 Certificarse en “Microsoft Azure Developer Associate” antes de noviembre de 2026, con el propósito de optimizar los despliegues cloud del backend y asegurar tres pipelines CI/CD funcionales que automaticen pruebas, build y release. La validación será la ejecución continua exitosa en entornos de staging y producción del sistema Flota365.
+
+**Objetivo SMART 6**
+
+Comprender metodologías como *Attributes Drive-Design* para el diseño y escalamiento de una aplicación multiplaforma y sólida en base a las necesidades vigentes como póstumas que puede tener los clientes así como los *stakeholder*. Espero que con un buen diseño arquitectural y orientado a los atributos más esenciales que requiere el negocio, el escalamiento puede intergrarse a la nuevas funcionalidades o servicios de manera más factible y sin problemáticas que este afecta el **Core** de la aplicación.
 
 <br>
 
 **Villafuerte Tapia, Renzo Alonso – U202310670**
 
-Objetivo SMART 5
+**Objetivo SMART 7**
 
 Diseñar e implementar un sistema de monitoreo centralizado para los microservicios de Flota365 usando .NET + OpenTelemetry antes de septiembre de 2026, logrando métricas, logs y trazas distribuidas que permitan reducir los tiempos de diagnóstico en incidentes críticos en al menos un 35%. La evidencia será un dashboard operativo validado por gestores de flota.
 
-**Objetivo SMART 6**
+**Objetivo SMART 8**
 
 Alcanzar competencias sólidas en modelamiento de datos y optimización de consultas SQL antes de febrero de 2026, aplicando estas mejoras en los módulos de reporting y dashboard. El logro será medido por una reducción del 20% en el tiempo de respuesta de los endpoints analíticos y la creación de dos pipelines ETL iniciales para futuras capacidades de analítica avanzada.
+
+**Objetivo SMART 9**
+
+Dominar arquitecturas avanzadas aplicadas al ecosistema Flota365 (Clean Architecture, CQRS y Event-Driven Architecture) antes de octubre de 2026, implementando al menos dos refactorizaciones estructurales en los módulos críticos del backend (.NET 8) y la app móvil (Kotlin/Flutter). El progreso será validado mediante revisiones arquitectónicas formales y la reducción del acoplamiento en un mínimo del 30%, evidenciado por métricas de análisis estático y testabilidad.
 
 <br>
 
 **Torres Apolinario, Giovany Smith – U202311601**
 
-**Objetivo SMART 7**
+**Objetivo SMART 10**
 
 Diseñar un sistema de componentes reutilizables para la app Flutter de Flota365 antes de agosto de 2026, documentando estilos, spacing, tipografías y widgets críticos. El avance será validado mediante la adopción del 70% de dichos componentes por parte del equipo y la reducción del tiempo de diseño/implementación de nuevas vistas en un 25%.
 
-**Objetivo SMART 8**
+**Objetivo SMART 11**
 
 Publicar un manual técnico completo para desarrolladores móviles y backend de Flota365 antes de diciembre de 2026, integrando lineamientos de arquitectura, estándares de commits, estructura DDD y definición de contratos API. El cumplimiento será medido por la creación de un documento mayor a 40 páginas y su aceptación formal durante la Spring Review del proyecto.
+
+**Objetivo SMART 12**
+
+Diseñar y validar un prototipo funcional de integración IoT para Flota365 antes de marzo de 2027, conectando sensores telemétricos (GPS, temperatura, vibración o estado del vehículo) a un microservicio especializado que procese la data en tiempo real mediante MQTT o WebSockets. La validación consistirá en alcanzar un pipeline operativo capaz de procesar al menos 10.000 eventos/mes, integrando dashboards analíticos para gestores de flota y estableciendo las primeras bases para la expansión hacia un ecosistema IoT escalado.
