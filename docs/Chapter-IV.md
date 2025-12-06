@@ -1648,6 +1648,677 @@ Detalle de la participación y el progreso aportado por cada miembro del equipo 
 
 <br>
 
+### 4.2.2. Sprint 3
+
+En este sprint 3 continuamos con el desarrollo del proyecto dentro del marco ágil de Scrum. Esta última nos centramos en la **continuación de la implementación de la vista Mobile para el segmento de conductores**. Durante este sprint también se priorizó el nuevo despliegue de nuestros servicios tanto **Mobile** como la nueva versión del servicio **Backend** utilizando tecnología Cloud de nuestros *partners* de Microsoft, fidelizando una integración más confiable y de facil integración entre los servicios ya disponibles.
+
+Las actividades del presente sprint incluyeron la conexión directa con el **backend totalmente desplegado**, permitiendo realizar pruebas end-to-end sobre funcionalidades críticas. Adicional a ello, se desplegó la versión final del desarrollo realizado en **Flutter** para la aplicación dirigido a los conductore, mejorando la usabilidad y e interactividad con alas funcionalidades que cuenta en su vista.
+
+### 4.2.3.1. Sprint Planning 3
+
+Durante la planificación del sprint, se priorizaron las **user stories** asociadas al desarrollo de las funcionalidades Android para Conductore. Se definieron tareas técnicas relacionadas con la integración con el backend y despliegue de la aplicación con los servicios de **Firebase** de **Google**.
+
+El equipo alineó esfuerzos y responsabilidades, garantizando que las actividades asignadas permitieran avanzar de manera consistente hacia la entrega de una aplicación móvil estable, conectada y adecuada a las necesidades de ambos segmentos del sistema. Además, se fomentó la colaboración continua para asegurar una comprensión compartida del alcance y los objetivos del sprint.
+
+| Sprint # | Sprint 3 |
+| -- | -- |
+| **Sprint Planning Background** | |
+| **Date** | 23/11/2025 |
+| **Time** | 19:40 AM |
+| **Location** | Discord (Reunión virtual) |
+| **Prepared By** | Huamani Sánchez, José Diego |
+| **Attendees (to planning meeting)** | Torres Apolinario, Giovany Smith, Llerena Delgado Renzo Miguel, Villafuerte Tapia Renzo Alonso |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Desarrollar el despliegue de la aplicación Flutter, desplegar el backend en los servicios de Microsoft Azure |
+| **Sprint 2 Velocity** | 12 |
+| **Sum of Story Points** | 12 |
+
+<br>
+
+#### 4.2.3.2. Sprint Backlog 3
+
+Durante el Sprint 3, el equipo Flota365 se enfocó en consolidar la infraestructura necesaria para soportar el despliegue y operación del sistema en un entorno productivo. Como primer objetivo, se procedió con la creación y configuración de un servidor Linux en la plataforma Microsoft Azure, estableciendo los componentes base para alojar servicios críticos y garantizando prácticas adecuadas de seguridad, escalabilidad y administración. Este paso resultó fundamental para preparar un entorno confiable y alineado a las necesidades técnicas del proyecto.
+
+Posteriormente, se implementó una instancia de MySQL Flexible Server, con el propósito de asegurar una capa de persistencia robusta y optimizada para la gestión de los datos operativos. La definición de parámetros, reglas de acceso, respaldos automáticos y configuraciones de rendimiento permitió establecer una base de datos estable, preparada para soportar consultas concurrentes y mantener la integridad de la información. Esta tarea fue clave para garantizar la continuidad y eficiencia del procesamiento de datos dentro de la plataforma.
+
+Finalmente, se llevó a cabo el despliegue del API principal mediante un App Web Service en Azure, integrando la lógica de negocio desarrollada con la infraestructura previamente configurada. Este paso habilitó la exposición segura de endpoints, facilitando la comunicación con las aplicaciones móviles y web. Con este avance, el equipo completó la consolidación del entorno de despliegue, permitiendo que las funcionalidades del sistema puedan ser ejecutadas, probadas y consumidas de forma confiable, marcando un progreso significativo hacia la entrega final del producto.
+<br>
+
+![alt text](../images/chapter-IV/Scrum%20Board%20-%20Sprint%202%20-%20Flota365.png) 
+
+| Sprint # | Sprint 3 |
+|-----------|-----------|
+
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+|-------------|--|------------------|--|--|--|--|--|
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| US01 | Configuración de Servidor Linux en Azure  | TA001 | Configurar servidor Cloud | Provisionar y configurar una VM Linux en Azure para alojar servicios del backend bajo estándares de seguridad. | 3 | Huamani Sánchez, José Diego | Done |
+| US02 | Implementación de MySQL Flexible Server | TA002 | Configurar base de datos Cloud | Crear la instancia de base de datos MySQL Flexible Server, configurar accesos, parámetros y backups. | 3 | Huamani Sánchez, José Diego | Done |
+| US03 | Despliegue del API en App Service | TA003 | Publicar API en Azure | Publicar y configurar el API REST en Azure App Service, habilitando endpoints para consumo externo. | 4 | Torres Apolinario, Giovany Smith | Done |
+| US04 | Switcher de idiomas | TA004 | Ejecutar pruebas funcionales e integraciones entre API, BD y servidor para garantizar correcta operación. | 2 | Llerena Delgado, Renzo Miguel | Done |
+
+<br>
+
+**Link de Trello**: https://trello.com/invite/b/69177f6ba3ab36f73ee521a5/ATTId55d067d884ae22ef95d41c56da1386c70D00649/sprint-2-flota365
+
+<br>
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+**Mobile Application - Kotlin**:
+
+|Repository |Branch| Commit Id | Commit Message| Commit Message Body| Date|
+|----|-----|---------------------|----------------------------------------|---------------------------------------------------------|------------|
+|Flota365/landing-page|develop| 2753d07           | feat(header): add the header and navigations  | the access with differents informative articles about Flota365 Startup | 05/10/2025 |
+|Flota365/landing-page|develop| 184f6f5           | feat(hero): add the new version of Hero Section o n the Flota365 Landing Page         | Added hero section with headline | 05/10/2025 |
+|Flota365/landing-page|develop| a831a7f           | feat(features): add the primordial features  | features of Flota365 offers our customers         | 05/10/2025 |
+|Flota365/landing-page|develop| 74000b4           | feat(about): add the first vertion of About section    | Implemented company info section with team photos       | 05/10/2025 |
+|Flota365/landing-page|develop| c5ab48a           | feat(contact): Add contact information | add the contact forms into the Landing Page of Flota465 | 05/10/2025 |
+|Flota365/landing-page|develop| 3473e3f           | Chore(colors): update the color palette     | Implemented apply into the new navigation items  | 05/10/2025 |
+|Flota365/landing-page|develop| 681332a           | feat(stats): add the stadistics   | Implemented information about the advantage to use Flota365   | 05/10/2025 |
+|Flota365/landing-page|develop| 932bd47           | feat(team): add the group of developers | Implemented  team member of Flota365 into the Landing Page   | 05/10/2025 |
+|Flota365/landing-page|develop| 71f42b3           | feat(footer): add Footer   | content that descripve the differents informative article about the service   | 05/10/2025 |
+
+<br>
+
+**Mobile Application - Flutter**:
+
+|Repository |Branch| Commit Id | Commit Message| Commit Message Body| Date|
+|----|-----|---------------------|----------------------------------------|---------------------------------------------------------|------------|
+|Flota365-mobile-application-flutter|feature/conductores| 95e004b           | feat(driver): update page  | feat(driver): update page | 14/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| 998f339           | Merge branch 'feature/conductores' of https://github.com/1ACC0238-2520-1821-G2-Flota365/Flota365-mobile-application-flutter into feature/conductores
+         | merge feat/conductores | 14/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| a406749           | feat(login): update register  | feat(login): update register         | 14/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| 97128e9           | feat(driver): update presentation    | feat(driver): update presentation       | 13/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| f32a5cf           | feat(driver): update data
+ | feat(driver): update data | 13/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| ebd4def           | feat(driver): add driver_mapper     | feat(driver): add driver_mapper  | 13/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| bd0ffd3           | feat(dirver): update blocs route   | feat(dirver): update blocs route   | 12/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| c59ec8b           | feat(driver): add routes page | feat(driver): add routes page   | 12/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| 9377e53           | feat(conductores): update   | feat(conductores): update   | 11/11/2025 |
+
+<br>
+
+**Web Service**:
+
+| **Repository** | **Branch**      | **Commit Id** | **Commit Message**                                                | **Commit Message Body**                                                                                                                                                                                                                                                                                          | **Date**      |
+|----------------|-----------------|---------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|                                                                                         
+| FlotaAPI       | main            | 6a85612       | **feat():** endpoint de métricas para Dashboard                    | Creación del endpoint `/api/dashboard/metrics` consolidando KPIs de Reporting: flotas, conductores, asignaciones, MTTR. Incluye cache en memoria de 60 segundos.                                                                                                                                                | 29/10/2025    |
+| FlotaAPI       | main            | 648ccf6       | **refactor(Management):** separar contratos y servicios (CQRS)     | Reorganización del módulo Management bajo un enfoque CQRS ligero: separación de Commands/Queries, perfiles de AutoMapper y servicios por caso de uso. Mejora claridad, mantenimiento y testabilidad.                                                                                                            | 29/10/2025    |
+
+<br>
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+Para el presente entregable, el equipo ha tomado la decisión estratégica de priorizar la consolidación de la funcionalidad principal de la plataforma, sentando así una línea base estable para la validación final.
+
+El esfuerzo de este Sprint se enfocó en los siguientes objetivos críticos:
+
+1. Finalizar la versión funcional de la aplicación de Gestores (Kotlin), asegurando que el core del producto esté completo.
+
+2. vistas y flujos esenciales.
+
+3. Subsanar las observaciones de la documentación de la entrega anterior.
+
+Debido a este enfoque centrado en la construcción y la corrección, la implementación formal de scripts de pruebas (testing) fue planificada para el siguiente ciclo.
+
+**Próximos Pasos: Fase de Pruebas**
+
+Habiendo alcanzado una versión funcionalmente estable, el último Sprint se dedicará de manera intensiva a la fase de Aseguramiento de Calidad (QA). Se ejecutará un plan de pruebas enfocado en:
+
+* Validar la funcionalidad integral (end-to-end) de ambos productos.
+
+* Identificar y corregir bugs de comportamiento.
+
+* Revisar aspectos básicos de seguridad antes del despliegue final.
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+Para el logro de este proyecto, se realizó el despliegue tanto de la versión final de la aplicación móvil para el segmento de Gestores de Flota y se desarrolló la primera versión la aplicación móvil para el segmento de Coductores. Adicional a ello, se realizó las últimas mejoras para en su versión final el Web Service.
+
+**Backend - Swagger:**
+
+<a href="https://underground-tuesday-renworkplace-1e2821cb.koyeb.app/swagger/index.html">https://underground-tuesday-renworkplace-1e2821cb.koyeb.app/swagger/index.html</a>
+
+![alt text](../images/chapter-IV/Swagger1.PNG)
+
+<br>
+
+![alt text](../images/chapter-IV/Swagger2.PNG) 
+
+<br>
+
+![alt text](../images/chapter-IV/Swagger3.PNG)
+
+<br>
+
+**Mobile Application - Kotlin:**
+
+![alt text](../images/chapter-IV/Kotlin%20Execute1.jfif)
+
+<br>
+
+![alt text](../images/chapter-IV/Kotlin%20Execute2.jfif)
+
+<br>
+
+![alt text](../images/chapter-IV/Kotlin%20Execute3.jfif)
+
+<br>
+
+**Mobile Application - Flutter:**
+
+![alt text](../images/chapter-IV/Flutter%20Login.jfif)
+
+<br>
+
+![alt text](../images/chapter-IV/Flutter%20Welcome.jfif)
+
+<br>
+
+![alt text](../images/chapter-IV/Flutter%20Menu.jfif)
+
+<br>
+
+![alt text](../images/chapter-IV/Flutter%20Routes.jfif)
+
+<br>
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+A continuación, se detalla el progreso del *Web Serivce*, presentando los endpoints que habilitan las nuevas funcionalidades desarrolladas en este Sprint.
+
+Se incluye la validación de las operaciones CRUD (Crear, Leer, Actualizar, Borrar) mediante pruebas ejecutadas en la plataforma de **OpenAPI.** Adicionalmente, se adjunta el enlace de acceso al repositorio de la API en GitHub para la consulta del código fuente:" <a href="https://flota365-backend-corp-cmawf5ddamh5f7b8.westus3-01.azurewebsites.net/swagger/index.html">https://flota365-backend-corp-cmawf5ddamh5f7b8.westus3-01.azurewebsites.net/swagger/index.html</a>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Auth</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Auth/register <br>
+        POST: /api/Auth/login <br>
+        GET: /api/Auth/profile/{id} <br>
+        PUT: /api/Auth/profile/{id} <br>
+        GET: /api/Auth/profile <br>
+        POST: /api/Auth/change-password/{id} <br>
+        GET: /api/Auth/users <br>
+        DELETE: api/Auth/users/{id} <br>
+        GET: /api/Auth/health
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Auth-Endpoint-Web-Services.png" alt="Swagger API Authentication endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Dashboard</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Dashboard/stats <br>
+        GET: /api/Dashboard/active-vehicles <br>
+        GET: /apu/Dashboard/fleet-summary
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Dashboard-Endpoint-Web-Services.png" alt="Swagger API Dashboard endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Driver</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Drivers <br>
+        GET: /api/Driver <br>
+        GET: /api/Driver/{id} <br>
+        PUT: /api/Driver/{id} <br>
+        DELETE: /api/Driver/{id} <br>
+        GET: /api/Driver/stats
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Driver-Endpoint-Web-Services.png" alt="Swagger API Drivers endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Vehicle</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Vehicle <br>
+        GET: /api/Vehice <br>
+        GET: /api/Vehicle/{id} <br>
+        PUT: /api/Vehicle/{id} <br>
+        DELETE: /api/Vehicle/{id}
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Vehicle-Endpoint-Web-Services.png" alt="Swagger API Vehicles endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Fleets</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Fleets <br>
+        POST: /api/Fleets <br>
+        GET: /api/Fleets/{id} <br>
+        PUT: /api/Fleets/{id} <br>
+        DELETE: /api/Fleets/{id} <br>
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Fleets-Endpoint-Web-Services.png" alt="Swagger API Fleets endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Maintenance</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Maintenance/records <br>
+        POST: /api/Maintenance/records <br>
+        GET: /api/Maintenance/records/{id} <br>
+        PUT: /api/Maintenance/records/{id} <br>
+        DELETE: /api/Maintenance/records/{id} <br>
+        GET: /api/Maintenance/records/{id} <br>
+        GET: /api/Maintenance/records/vehicles/{vehicleId} <br>
+        GET: /api/Maintenance/records/overdue <br>
+        GET: /api/Maintenance/services <br>
+        POST: /api/Maintenance/services <br>
+        GET: /api/Maintenance/services/{id} <br>
+        DELETE: /api/Maintenance/services/{id} <br>
+        GET: /api/Maintenance/services/vehicle/{vehicleId} <br>
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Maintenance-Endpoint-Web-Services.png" alt="Swagger API Maintenance endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Manager</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Manager <br>
+        GET: /api/Manager
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Manager-Endpoint-Web-Services.png" alt="Swagger API Manager endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Report</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Report <br>
+        GET: /api/Report
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Report-Endpoint-Web-Services.png" alt="Swagger API Report endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Health</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Health <br>
+        GET: /api/Health/info
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Health-Endpoint-Web-Services.png" alt="Swagger API Health endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Assignment</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Assignment <br>
+        GET: /api/Assignment <br>
+        PUT: /api/Assignment/{id}/start <br>
+        PUT: /api/Assignment/{ID}/complete
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Assignment-Endpoint-Web-Services.png" alt="Swagger API Assignment endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+En esta entrega desplegamos la nueva versión de nuestros servicios **Cloud** para el acceso a los datos desde nuestro servicio de **Backend** desde la plataforma de Microsoft Azure.
+
+**Prerrequisitos**
+
+Cuenta activa de Azure for Students o suscripción similar.
+
+Visual Studio 2022 Community instalado con la carga de trabajo "Desarrollo de Azure".
+
+Proyecto de Backend en C# listo para producción (Swagger configurado).
+
+1. Creación del Grupo de Recursos
+El primer paso es crear el contenedor lógico que agrupará todos nuestros servicios para una mejor administración y control de costos.
+
+Iniciar sesión en el Portal de Azure.
+
+Buscar y seleccionar el servicio "Grupos de recursos".
+
+Hacer clic en + Crear.
+
+Configuración:
+
+Suscripción: Azure for Students.
+
+Grupo de recursos: Flota365-Corporation (o el nombre de su proyecto).
+
+Región: West US 3 (o la región con disponibilidad para estudiantes, ej. East US 2).
+
+Hacer clic en Revisar y crear > Crear.
+
+2. Aprovisionamiento de la Base de Datos
+Utilizaremos una instancia gestionada de MySQL para garantizar alta disponibilidad y seguridad.
+
+En el portal, buscar "Azure Database for MySQL - Servidor flexible".
+
+Hacer clic en + Crear.
+
+Configuración Básica:
+
+Grupo de recursos: Seleccionar el creado anteriormente (Flota365-Corporation).
+
+Nombre del servidor: Ej. flota365-db-server (debe ser único).
+
+Región: La misma del grupo de recursos.
+
+Versión de MySQL: 8.0.
+
+Proceso y almacenamiento: Seleccionar nivel Ampliable (Burstable), tamaño Standard_B1ms (Opción económica).
+
+**Autenticación:**
+
+Definir usuario administrador (ej. FlotaAdmin).
+
+Definir y guardar una contraseña segura.
+
+Redes (Configuración Crítica):
+
+Marcar "Permitir acceso público a este recurso...".
+
+Reglas de Firewall: Agregar una nueva regla para permitir acceso global (necesario para redes universitarias estrictas y desarrollo móvil).
+
+Nombre: AllowAll_Global
+
+IP Inicial: 0.0.0.0
+
+IP Final: 255.255.255.255
+
+Marcar la casilla: "Permitir el acceso público desde cualquier servicio de Azure dentro de Azure".
+
+Hacer clic en Crear.
+
+Nota Técnica: La regla de firewall 0.0.0.0 - 255.255.255.255 expone el puerto 3306 a internet. En un entorno académico facilita la conexión desde redes con restricciones de salida, aunque en entornos empresariales reales se recomienda restringir a IPs específicas.
+
+3. Publicación del Backend desde Visual Studio
+Desplegaremos el código compilado directamente a un contenedor Linux gestionado.
+
+Abrir la solución en Visual Studio Community.
+
+En el Explorador de Soluciones, hacer clic derecho sobre el proyecto API > Publicar.
+
+Seleccionar Azure > Azure App Service (Linux).
+
+Crear nueva instancia:
+
+Nombre: Ej. flota365-backend-api.
+
+Grupo de recursos: Seleccionar Flota365-Corporation.
+
+Plan de hospedaje: Crear nuevo plan B1 (Basic) (El plan Free F1 puede tener problemas de "Cold Start").
+
+Importante: En la sección "Dependencias de servicio", OMITIR la configuración de base de datos (lo haremos manualmente para mayor control).
+
+Hacer clic en Publicar.
+
+Visual Studio compilará el proyecto, generará los binarios y los subirá a Azure. Al finalizar, se abrirá el navegador con la URL del sitio.
+
+4. Vinculación y Variables de Entorno
+Para conectar el Backend (App Service) con la Base de Datos sin exponer credenciales en el código fuente, utilizamos variables de entorno.
+
+Ir al Portal de Azure y navegar al recurso App Service recién creado.
+
+En el menú lateral izquierdo, seleccionar Configuración (o Variables de entorno).
+
+Ir a la pestaña Cadenas de conexión.
+
+Hacer clic en + Agregar.
+
+Nombre: DefaultConnection (Debe coincidir con el appsettings.json local).
+
+Server=NOMBRE_SERVIDOR.mysql.database.azure.com;Database=NOMBRE_BASE_DATOS;Uid=USUARIO;Pwd=CONTRASEÑA;SslMode=Required;
+Tipo: MySQL.
+
+Hacer clic en Aceptar y luego en el botón Aplicar / Guardar en la parte superior.
+
+Efecto: Al reiniciar la aplicación, el sistema de inyección de dependencias de .NET leerá esta cadena en lugar de la local, ejecutará DbContext.Database.Migrate() y creará las tablas automáticamente en la nube.
+
+5. Habilitación de CORS (Cross-Origin Resource Sharing)
+Para permitir que aplicaciones móviles (Kotlin/Flutter), dispositivos IoT o aplicaciones Web (Vue/Angular) consuman la API sin bloqueos de seguridad.
+
+Dentro del recurso App Service, buscar en el menú izquierdo la opción CORS.
+
+En la sección "Orígenes permitidos", agregar: *
+
+Hacer clic en Guardar.
+
+¿Por qué el asterisco (*)? Indica que la API aceptará peticiones HTTP desde cualquier origen o dominio. Esto es ideal para etapas de desarrollo y pruebas con múltiples clientes (Móvil, Web, IoT).
+
+6. Validación Final
+Para confirmar el despliegue exitoso:
+
+Navegar a la URL proporcionada por Azure agregando la ruta de Swagger:
+
+https://[NOMBRE-APP].azurewebsites.net/swagger
+
+Si la interfaz de Swagger UI carga correctamente y permite ejecutar los endpoints, el despliegue ha sido exitoso.
+
+<br>
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
+
+En este Sprint, el esfuerzo se ha centrado en la implementación simultánea de la Aplicación Móvil y el servicio Web (API) que la respalda.
+
+Con el fin de medir y transparentar el progreso, el siguiente informe desglosa las métricas de colaboración del equipo (obtenidas de GitHub). Estos indicadores demuestran cómo la contribución individual de cada miembro se alinea con la distribución de tareas planificada, confirmando la ejecución efectiva del trabajo asignado en las distintas fases del desarrollo.
+
+* **Web Services**
+
+Resumen de la participación individual y la distribución del esfuerzo en el desarrollo de los Servicios Web. Estos datos muestran la contribución registrada por cada integrante para cumplir con los objetivos del Sprint.
+
+![Commits Web Services](../images/chapter-IV/Web%20Service%20Insight%20-%20Report.png)
+
+<br>
+
+* **Landing Page**
+
+A través de las métricas de colaboración de GitHub - basado en el desarrollo de nuestra *Landing Page*, ofrecemos una visión transparente del esfuerzo individual y colectivo; asegurando la rendición de cuentas (accountability) y confirmar que el trabajo se alinea con los objetivos estratégicos de la iteración.
+
+![Commits Landing Page](../images/chapter-IV/Landing%20Page%20Insight%20-%20Report.png)
+
+<br>
+
+**Mobile App**
+
+Detalle de la participación y el progreso aportado por cada miembro del equipo en el desarrollo de la Aplicación Móvil. Estos indicadores reflejan cómo se distribuyó la responsabilidad de construcción del frontend y la ejecución de las tareas asignadas a cada integrante.
+
+**1. Kotlin:**
+
+![Commits Kotlin Mobile App](../images/chapter-IV/Kotlin%20App%20Insight%20-%20Report.png)
+
+<br>
+
+**2. Flutter:**
+
+![Commits Flutter Mobile App](../images/chapter-IV/Flutter%20App%20Insight%20-%20Report.png)
+
+<br>
+
 ## 4.3. Validation Interviews
 
 Para validar nuestros entregables, realizaremos entrevistas con nuestros segmentos objetivos, los cuales vienen a ser: Gestores de Flota y Conductores de vehículos pesados. El propósito es recopilar su opinión sobre la utilidad, claridad y facilidad de uso de solución propuesta por el team Flota365.
@@ -1857,6 +2528,16 @@ Paralelamente, se desplegó la primera versión de la landing page oficial de Fl
 En cuanto al desarrollo móvil, el equipo liberó la nueva versión del módulo para gestores de flota, implementado en Kotlin, ahora con una interfaz significativamente mejorada. Esta versión incorpora principios de UX centrados en la usabilidad y claridad operativa, optimizando la visualización del estado de la flota, la asignación de vehículos y la gestión operativa diaria.
 
 Finalmente, se lanzó la primera versión de la aplicación para conductores, desarrollada con Flutter. Este componente introduce funcionalidades esenciales como check-in y check-out, permitiendo que los conductores registren el inicio y fin de sus operaciones, la unidad asignada y las incidencias ocurridas durante el trayecto. Estas capacidades no solo fortalecen la trazabilidad operacional, sino que también habilitan un canal de comunicación directa y confiable entre el conductor y el gestor de flota.
+
+**TF**:
+
+El avance realizado en esta fase representa un hito relevante dentro del desarrollo de la plataforma Flota365, dado que consolida la infraestructura tecnológica necesaria para garantizar la operación estable y escalable del sistema. La creación del servidor Linux en Azure nos permitió establecer un entorno seguro, gestionado y adecuado para alojar los servicios críticos del proyecto, siguiendo estándares actuales de despliegue en la nube y buenas prácticas de administración de sistemas.
+
+Asimismo, la implementación de la base de datos MySQL Flexible Server permitió asegurar un backend robusto y optimizado para la gestión de la información. Esta configuración no solo brinda mayor disponibilidad y tolerancia a fallos, sino que también permite un manejo eficiente de los datos relacionados con las operaciones de flota, asegurando integridad, rendimiento y continuidad del servicio.
+
+Del mismo modo, el despliegue de nuestro API en un App Web Service marcó la integración efectiva entre la infraestructura y la lógica de negocio desarrollada por el equipo. Esta etapa habilita que las funcionalidades del sistema puedan ser consumidas de manera confiable por las aplicaciones móviles y web, asegurando conectividad estable, escalabilidad automática y un mantenimiento simplificado mediante los servicios administrados de Azure.
+
+En conjunto, estas acciones demuestran el avance sostenido del equipo en la consolidación de una arquitectura en la nube moderna, segura y alineada con los objetivos del proyecto Flota365. Con este despliegue inicial, dejamos preparada la base tecnológica para continuar la integración de nuevas funcionalidades, garantizar la operatividad del sistema en ambientes productivos y avanzar hacia un producto final estable, eficiente y orientado a las necesidades reales de gestión de flotas.
 
 ## Video App Validation
 
